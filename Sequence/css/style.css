@@ -1,0 +1,201 @@
+
+        body{
+            background-image: url("../images/background.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .wrap {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+                
+        .quart1 {
+            top: 0;
+            left: 0;            
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            background: #8293FF;
+            transition: all 0.4s;
+        }
+        
+        .quart2 {
+            top: 0;
+            left: 50%;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            background: #FF7575;
+            transition: all 0.4s;
+        }
+        
+        .quart3 {
+            top: 50%;
+            left: 0;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            background: #FFFF57;
+            transition: all 0.4s;         
+        }
+        
+        .quart4 {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            background: #70FF6B;
+            transition: all 0.4s;
+        }
+        
+        .center {
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            top: 24%;
+            left: 25%;
+            background: lightgray;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 144px;
+            font-size: 29px;            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        #B:active {
+            background: #05199E !important;            
+        }        
+        #R:active {
+            background: #AD0000 !important;
+        }
+        #Y:active {
+            background: #B3B302 !important;
+        }
+        #G:active {
+            background: #059E00 !important;
+        }
+        
+        .mid{
+            
+            width: 100%;
+            margin: 0px auto;
+            display: flex;            
+            margin-top: 60px;
+            justify-content: center;
+        }
+        
+/*        
+        .nos{
+            font-size: 26px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100px;
+            height: 100px;
+            float: right;
+            position: relative;
+            top: 20px;
+            right: 20px;
+           
+        }*/
+        
+        .playarea{
+            width: 100%;
+            text-align: center;
+        }
+        
+        .letsPlay{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /*margin-right: 90px;        */
+            height: 50px;
+            width: 100px;
+            line-height:50px;
+            vertical-align:middle;
+            text-align:center;
+            font-family:arial;
+            font-size:26px;
+            font-weight:bold;
+            color:white;
+            text-shadow:2px 2px #336633;
+            box-shadow:2px 2px #336633;
+            border: 1px solid black;
+            border-radius:12px;
+            background: linear-gradient(to bottom right, LawnGreen 15%, green 85%, DarkGreen 90%);
+            cursor: pointer;
+                }
+        
+        .letsPlay:hover{
+            text-shadow:1px 1px #336633;
+            box-shadow:1px 1px #336633;
+            background: linear-gradient(to bottom right, LawnGreen 5%, green 80%, DarkGreen 85%);
+        }
+        
+        #dlgbox{
+
+            background-color: whitesmoke;
+            box-shadow: 2px 2px 2px 2px;
+            margin:0px auto;
+            margin-top: 60px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 5px;
+            z-index: 9999;
+            position: fixed;
+            left: 0px;
+            right: 0px;
+        }
+
+        .boxHead{
+            font-family: philosopher;
+            font-size: 44px;
+            font-weight: bold;
+            text-align: center;
+             /*width: 300px;*/
+             margin: 0px auto;
+            padding-bottom: 5px;
+        }
+
+        .boxPara{
+            
+            font-size: 16px;
+            text-align: center;
+            /*width: 300px;*/
+            margin: 0px auto;
+
+        }
+
+        .boxBtn{
+            display: flex;
+            margin-top: 10px;
+            padding: 5px 35px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btnContainer{
+             /*width: 300px;*/
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .userBox{
+
+            padding: 5px;
+            width: 180px;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        
+        
+        
+        
+        
+        
+        
+        
